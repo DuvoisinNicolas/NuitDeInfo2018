@@ -10,7 +10,7 @@
 </div>
     <h2>121 Jours en Namib</h2>
     <ul>
-        <li><a class="active">La mission</a></li>
+        <li><a>La mission</a></li>
         <li><a>Postuler</a></li>
         <li><a>Description</a></li>
         <li><a>Connexion</a></li>
@@ -23,6 +23,6 @@
         <input type="checkbox" class="checkboxJS"/>Bon 4 ça suffira ?<br/>
     </div>
     <p id="rightText">LOREM IPSUM LOL :D</p>
-    <script src="fusee.js"></script>
+    <script src="/src/js/fusee.js"></script>
 </body>
 </html>
