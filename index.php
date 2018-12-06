@@ -24,6 +24,10 @@
         <input type="checkbox" class="checkboxJS" onchange="checkBox(this)"/>Bon 4 ça suffira ?<br/>
     </div>
     <p id="rightText">LOREM IPSUM LOL :D</p>
+    <div id="theFlyingDiv">
+        assistance
+        <!--<input type="text" />-->
+    </div>
     <script src="/src/js/fusee.js"></script>
 </body>
 </html>
