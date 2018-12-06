@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="6ea7c7d5-da00-4e22-a930-c6a34e81d460" name="Crew Stillant" url="http://ssh-crewstillant.alwaysdata.net">
+      <webServer id="6ea7c7d5-da00-4e22-a930-c6a34e81d460" name="Crew Stillant" url="http://crewstillant.alwaysdata.net">
         <fileTransfer host="ssh-crewstillant.alwaysdata.net" port="22" rootFolder="/home/crewstillant" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
