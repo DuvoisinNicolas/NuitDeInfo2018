@@ -25,8 +25,9 @@
     </div>
     <p id="rightText">LOREM IPSUM LOL :D</p>
     <div id="theFlyingDiv">
-        <p>Assistance</p>
+        Assistance
     </div>
+    <img src=""/>
     <script src="/src/js/fusee.js"></script>
 </body>
 </html>
