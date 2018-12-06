@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <!-- Lol -->
     <meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href="css/cssincroyable.css"/>
 </head>
