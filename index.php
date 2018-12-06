@@ -16,7 +16,7 @@
         <li><a>Description</a></li>
         <li><a>Connexion</a></li>
     </ul>
-    <p></p>
+    <p>Salut voilà le super site</p>
     <div id="checklist">
         <input type="checkbox" class="checkboxJS" onchange="checkBox(this)"/>Bien penser à se brosser les dents<br/>
         <input type="checkbox" class="checkboxJS" onchange="checkBox(this)"/>Salut a tous j'ai la flemme de réfléchir<br/>
@@ -27,6 +27,7 @@
     <div id="theFlyingDiv">
         assistance
     </div>
+    <img src="/src/resources/fusee.png" id="fusee" alt="fusee" hidden="hidden"/>
     <script src="/src/js/fusee.js"></script>
 </body>
 </html>
