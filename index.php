@@ -9,7 +9,7 @@
 <div class="header">
     <img src="/src/resources/namib.jpg" alt="Va mourir ! ">
 </div>
-    <h2>121 Jours sur Namib</h2>
+    <h2 id = "titre">121 Jours sur Namib</h2>
     <ul>
         <li><a>La mission</a></li>
         <li><a>Postuler</a></li>
