@@ -27,8 +27,7 @@
     <div id="theFlyingDiv">
         assistance
     </div>
-
-    <img src="/src/resources/fusee.png" alt="fusee" hidden="hidden" />
+    <img src="/src/resources/fusee.png" id="fusee" alt="fusee" hidden="hidden"/>
     <script src="/src/js/fusee.js"></script>
 </body>
 </html>
