@@ -32,3 +32,16 @@ li a:hover {
 .active {
     background-color: #4CAF50;
 }
+
+#theFlyingDiv {
+        position : fixed;
+        bottom : 0;
+        right : 0.5%;
+        float : right;
+        background-color : black;
+        color : white;
+        padding-right : 7%;
+        padding-left : 7%;
+        padding-top : 0.5%;
+        padding-bottom : 0.5%;
+}
