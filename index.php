@@ -3,11 +3,11 @@
 <head>
     <meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href="css/cssincroyable.css"/>
+    <script src="jquery-3.3.1.min.js"></script>
 </head>
 <body>
 <div class="header">
     <img src="/src/resources/namib.jpg" alt="Va mourir ! ">
-    <script src="jquery-3.3.1.min.js"></script>
 </div>
     <h2>121 Jours en Namib</h2>
     <ul>
