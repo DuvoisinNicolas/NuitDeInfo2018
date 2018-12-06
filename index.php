@@ -18,10 +18,10 @@
     </ul>
     <p></p>
     <div id="checklist">
-        <input type="checkbox" class="checkboxJS"/>Bien penser à se brosser les dents<br/>
-        <input type="checkbox" class="checkboxJS"/>Salut a tous j'ai la flemme de réfléchir<br/>
-        <input type="checkbox" class="checkboxJS"/>Deborah veut pas faire de css lul<br/>
-        <input type="checkbox" class="checkboxJS"/>Bon 4 ça suffira ?<br/>
+        <input type="checkbox" class="checkboxJS" onchange="checkBox(this)"/>Bien penser à se brosser les dents<br/>
+        <input type="checkbox" class="checkboxJS" onchange="checkBox(this)"/>Salut a tous j'ai la flemme de réfléchir<br/>
+        <input type="checkbox" class="checkboxJS" onchange="checkBox(this)"/>Deborah veut pas faire de css lul<br/>
+        <input type="checkbox" class="checkboxJS" onchange="checkBox(this)"/>Bon 4 ça suffira ?<br/>
     </div>
     <p id="rightText">LOREM IPSUM LOL :D</p>
     <script src="/src/js/fusee.js"></script>

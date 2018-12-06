@@ -1,13 +1,18 @@
 var cpt = 0;
-$("checkboxJS").change(function () {
+
+document.addEventListener("DOMContentLoaded", function(event) {
+    $(".checkboxJS")
+});
+
+function checkBox(checkboxElem) {
     alert("Salut");
-    if(this.checked) {
+    if (checkboxElem.checked) {
         cpt++;
     }
     else {
         cpt--;
     }
-    if(cpt === 4) {
+    if (cpt === 4) {
         alert("Salut");
     }
-});
+}
