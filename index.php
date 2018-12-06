@@ -7,19 +7,18 @@
 <body>
     <h1>121 Jours en Nabim</h1>
     <nav id="menu">
-        <a>La mission</a>
-        <a>Postuler</a>
-        <a>Description</a>
-        <a>Connexion</a>
+        <ul>La mission</ul>
+        <ul>Postuler</ul>
+        <ul>Description</ul>
+        <ul>Connexion</ul>
     </nav>
-    <p>Super le blabla j'adore , voila notre site il est trop bien wallah</p>
+    <p></p>
     <div id="checklist">
         <input type="checkbox"/>Bien penser à se brosser les dents<br/>
         <input type="checkbox"/>Salut a tous j'ai la flemme de réfléchir<br/>
         <input type="checkbox"/>Deborah veut pas faire de css lul<br/>
         <input type="checkbox"/>Bon 4 ça suffira ?<br/>
     </div>
-    <p>LOREM IPSUM LOL :D</p>
-</body>
+    <p id="rightText">LOREM IPSUM LOL :D</p>
 </body>
 </html>
