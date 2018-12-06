@@ -7,4 +7,7 @@ $(".checkboxJS").change(function () {
     else {
         cpt--;
     }
+    if(cpt == 4) {
+        alert("Salut");
+    }
 });
