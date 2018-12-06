@@ -1,5 +1,23 @@
+.header {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-size: 28px;
+    margin: 0;
+}
+
+#banniere {
+    width: 100%;
+    height: 230px;
+}
+
+#titre {
+    width: 100%;
+    position: absolute;
+    top: 25px;
+    text-align: center;
 }
 
 ul{
@@ -31,4 +49,17 @@ li a:hover {
 
 .active {
     background-color: #4CAF50;
+}
+
+#theFlyingDiv {
+        position : fixed;
+        bottom : 0;
+        right : 0.5%;
+        float : right;
+        background-color : black;
+        color : white;
+        padding-right : 7%;
+        padding-left : 7%;
+        padding-top : 0.5%;
+        padding-bottom : 0.5%;
 }
