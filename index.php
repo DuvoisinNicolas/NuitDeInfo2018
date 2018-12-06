@@ -9,7 +9,7 @@
 <div class="header">
     <img src="/src/resources/namib.jpg" alt="Va mourir ! ">
 </div>
-    <h2>121 Jours en Namib</h2>
+    <h2>121 Jours sur Namib</h2>
     <ul>
         <li><a>La mission</a></li>
         <li><a>Postuler</a></li>
@@ -26,7 +26,6 @@
     <p id="rightText">LOREM IPSUM LOL :D</p>
     <div id="theFlyingDiv">
         assistance
-        <!--<input type="text" />-->
     </div>
     <script src="/src/js/fusee.js"></script>
 </body>
