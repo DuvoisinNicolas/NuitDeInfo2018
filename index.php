@@ -16,7 +16,7 @@
         <li><a>Description</a></li>
         <li><a>Connexion</a></li>
     </ul>
-    <p></p>
+    <p>Salut c'est le texte de présentation</p>
     <div id="checklist">
         <input type="checkbox" class="checkboxJS" onchange="checkBox(this)"/>Bien penser à se brosser les dents<br/>
         <input type="checkbox" class="checkboxJS" onchange="checkBox(this)"/>Salut a tous j'ai la flemme de réfléchir<br/>
