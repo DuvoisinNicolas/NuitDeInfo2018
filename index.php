@@ -25,7 +25,7 @@
     </div>
     <p id="rightText">LOREM IPSUM LOL :D</p>
     <div id="theFlyingDiv">
-        assistance
+        <p>Assistance</p>
     </div>
     <script src="/src/js/fusee.js"></script>
 </body>
