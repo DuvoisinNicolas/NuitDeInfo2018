@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <!-- Lol -->
     <meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href="css/cssincroyable.css"/>
 </head>
 <body>
-    <h1>121 Jours en Nabim</h1>
-    <nav id="menu">
-        <ul>La mission</ul>
-        <ul>Postuler</ul>
-        <ul>Description</ul>
-        <ul>Connexion</ul>
-    </nav>
+<div class="header">
+    <img src="/src/resources/namib.jpg" alt="Va mourir ! ">
+</div>
+    <h2>121 Jours en Nabim</h2>
+    <ul>
+        <li><a class="active" href="#mission">La mission</a></li>
+        <li><a>Postuler</a></li>
+        <li><a>Description</a></li>
+        <li><a>Connexion</a></li>
+    </ul>
     <p></p>
     <div id="checklist">
         <input type="checkbox"/>Bien penser à se brosser les dents<br/>
