@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href="css/cssincroyable.css"/>
@@ -7,6 +7,7 @@
 <body>
 <div class="header">
     <img src="/src/resources/namib.jpg" alt="Va mourir ! ">
+    <script src="jquery-3.3.1.min.js"></script>
 </div>
     <h2>121 Jours en Namib</h2>
     <ul>
