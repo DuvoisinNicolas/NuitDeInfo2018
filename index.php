@@ -2,7 +2,7 @@
 <html lang="fr" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8"/>
-    <link rel="stylesheet" type="text/css" href="css/cssincroyable.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/cssincroyable.css"/>
     <script src="jquery-3.3.1.min.js"></script>
 </head>
 <body>
