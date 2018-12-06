@@ -19,5 +19,7 @@
         <input type="checkbox"/>Deborah veut pas faire de css lul<br/>
         <input type="checkbox"/>Bon 4 ça suffira ?<br/>
     </div>
+    <p>LOREM IPSUM LOL :D</p>
+</body>
 </body>
 </html>
