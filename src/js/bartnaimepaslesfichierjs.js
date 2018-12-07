@@ -23,15 +23,46 @@ $(document).ready(function(){
 });
 
 function envoyerMessage() {
-    alert("lol");
     $('#chatContent')
         .append("<p id='userMessage'>" + document.getElementById('chat').value + "</p>")
-        .append("<p id='deboroMessage'>" + reponseBot(document.getElementById('chat').value) + '</p>');
+        .append("<p id='deboroMessage'>" + reponseBot(document.getElementById('chat').value) + "</p>");
 }
 
 function reponseBot(message) {
     message = message.toLowerCase();
-    if (message.contains("bonjour") || message.contains("salut") || message.contains("wesh")) {
-        return "Enchanté, je suis Deboro";
+
+    if ((message.includes("bonjour") || message.includes("salut") || message.includes("wesh"))
+        && (message.includes("ca") || message.includes("ça") || message.includes("va"))) {
+        return "Enchanté, comment va-tu ?";
     }
+
+    if (message.includes("bonjour") || message.includes("salut") || message.includes("wesh")
+        && (message.includes("qui") || message.includes("appelle"))){
+        return "Enchanté, je suis deboro !";
+    }
+    if (message.includes("bonjour") || message.includes("salut") || message.includes("wesh")) {
+        return "Enchanté !"
+    }
+
+    if (message.includes("ca") || message.includes("ça") || message.includes("va") {
+        return "Ca va et toi ? :)";
+    }
+
+    if ( message.includes(":(") || message.includes(":)") ) {
+        return ":)";
+    }
+    if (message.includes("beep")) {
+        return "Bip boup !";
+    }
+
+    if (message.includes("bip") || message.includes("boop")) {
+        return "Bip Bip Bip !!!";
+    }
+
+    if (message.includes("wola")) {
+        return "Wola parles mieux :o";
+    }
+
+    else return "Beep Beep ... :)";
+
 }
