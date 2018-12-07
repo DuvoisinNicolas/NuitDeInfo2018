@@ -83,3 +83,8 @@ td {
 .checklistc {
     border: 1px solid black;
 }
+
+#fusee {
+    padding-left:45%;
+    position: absolute;
+}
