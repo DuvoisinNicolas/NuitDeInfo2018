@@ -2,8 +2,15 @@ var cptChangementPage = 0;
 var tsun = false;
 var cptTsun = 0;
 var $cpt = 0;
+var audio = new Audio('src/resources/sonIgnoble.mp3');
 
 $(document).ready(function(){
+    $(document).keypress(function (e) {
+        var keycode = (e.keyCode ? e.keyCode : e.which());
+        if (keycode == '13') {
+            envoyerMessage();
+        }
+    });
     $('#chatBox').hide ();
     $('#close').hide();
     $('#theFlyingDiv').click(function(){
@@ -26,11 +33,10 @@ $(document).ready(function(){
     });
 });
 
-function lowerChat() {
-    $('#theFlyingDiv').scroll($("#messagebox")[0].scrollHeight);
+function oskur() {
+    audio.play();
 }
 function envoyerMessage() {
-
     $('#chatContent')
         .append("<p id='userMessage'>" + document.getElementById('chat').value + "</p>")
         .append("<p id='deboroMessage'>" + reponseBot(document.getElementById('chat').value) + "</p>");
@@ -40,6 +46,7 @@ function envoyerMessage() {
 
 }
 function ajouterMessageChangerDePage() {
+
     if ($cpt === 0) {
         $('#close').show();
         $('#chatBox').show();
@@ -51,24 +58,29 @@ function ajouterMessageChangerDePage() {
         $cpt = 0;
     }
     if (cptChangementPage === 0) {
+        oskur();
         $('#chatContent')
             .append("<p id='deboroMessage'>Tu penses vraiment avoir le droit de consulter d'autres pages ?</p>");
     }
     if (cptChangementPage === 1) {
-    $('#chatContent')
+        oskur();
+        $('#chatContent')
         .append("<p id='deboroMessage'>Tu m'abandonnes c'est ça ?</p>");
     }
     if (cptChangementPage === 2) {
+        oskur();
         $('#chatContent')
             .append("<p id='deboroMessage'>C'est moi qui commande ici.</p>");
     }
 
     if (cptChangementPage === 3) {
+        oskur();
         $('#chatContent')
-            .append("<p id='deboroMessage'>Si tu penses vraiment pouvoir partir d'ici ...</p>");
+            .append("<p id='deboroMessage'>Tu aimes le son des messages ?</p>");
     }
 
     if (cptChangementPage === 4) {
+        oskur();
         $('#chatContent')
             .append("<p id='deboroMessage'>Tu as gagné, je ne t'adresserais plus la parole</p>");
         tsun = true;
@@ -79,9 +91,23 @@ function ajouterMessageChangerDePage() {
 
 function reponseBot(message) {
     message = message.toLowerCase();
-
+    oskur();
     if (tsun === false) {
-        if (message.includes("tamer") || message.includes("salo") || message.includes("conna")
+
+        if (message.includes("¯\\_(ツ)_/¯")) {
+            return "¯\\_(ツ)_/¯";
+        }
+
+        if (message.charAt(0) === '?' && message.length > 1) {
+            message = message.substr(1);
+            return "Et bien débrouille toi : <a href='http://lmgtfy.com/?q=wikipedia+" + message + "'>" + message + "</a>";
+        }
+
+        if (message.includes("météo") || message.includes("meteo")) {
+            return "Perso, j'ai pas froid. Au pire débrouille toi <a href='https://www.lachainemeteo.com/meteo-monde/pays-122/previsions-meteo-namibie-aujourdhui'>Meteo Namib</a>";
+        }
+
+        if (message.includes("tamer") || message.includes("salo") || message.includes("conna") || message.includes("pute")
             || message.includes("cul") || message.includes("abruti") || message.includes("bite") || message.includes("fdp")) {
             return "Si tu me parles encore sur ce ton, je te fork bomb.";
         }
@@ -90,6 +116,9 @@ function reponseBot(message) {
             return "Bonjour, Utilisateur. Je ne ressens pas de sentiments, je suis un robot.";
         }
 
+        if (message.includes("excuse") || message.includes("pardon") || message.includes("dsl")) {
+            return "Dieu ne pardonne pas.";
+        }
         if (message.includes("bonjour") || message.includes("salut") || message.includes("wesh")
             && (message.includes(" qui ") || message.includes("appelle"))) {
             return "Enchantée, je suis deboro.";
@@ -106,6 +135,9 @@ function reponseBot(message) {
             return "C'est bon les patates ! ";
         }
 
+        if (message.includes("ptdr") || message.includes("lol") || message.includes("mdr")) {
+            return "xptdr de rire . Espèce de kikoo."
+        }
         if (message.includes("saucisse")) {
             return "Merguez.";
         }
@@ -171,4 +203,5 @@ function reponseBot(message) {
             return "Silence.";
         }
     }
+
 }
