@@ -5,7 +5,14 @@ if ( window.addEventListener ) {
         kkeys.push( e.keyCode );
         if ( kkeys.toString().indexOf( konami ) >= 0 ) {
             alert('Its Noot Time !!');
-            window.location = "http://nootnoot.net";
+            var img = new Image();
+            img.src = 'src/resources/crewstillant.jpg';
+            img.onmouseover = window.open("http://nootnoot.net", "Noot Noot");
+            img.onmouseout = window.open("http://nootnoot.net", "Noot Noot");
+
+
+
+
         }
     }, true);
 }
