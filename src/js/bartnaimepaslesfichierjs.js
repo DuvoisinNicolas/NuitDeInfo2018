@@ -44,7 +44,7 @@ function reponseBot(message) {
         return "Enchanté !"
     }
 
-    if (message.includes("ca") || message.includes("ça") || message.includes("va") {
+    if (message.includes("ca") || message.includes("ça") || message.includes("va")) {
         return "Ca va et toi ? :)";
     }
 

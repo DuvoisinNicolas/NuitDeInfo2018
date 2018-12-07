@@ -7,7 +7,7 @@
     <script src="src/js/fusee.js"></script>
     <script src="src/js/konomi.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="/src/js/bartnaimepaslesfichierjs.js"></script>
+    <script src="src/js/bartnaimepaslesfichierjs.js"></script>
 </head>
 <body>
 <div class="header">
