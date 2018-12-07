@@ -31,9 +31,13 @@ function envoyerMessage() {
 function reponseBot(message) {
     message = message.toLowerCase();
 
+    if (message.includes("tamer") || message.includes("salo") || message.includes("conna")
+        ||  message.includes("cul") ||  message.includes("abruti") ||  message.includes("bite")) {
+        return "Si tu me parles encore sur ce ton, je te fork bomb.";
+    }
     if ((message.includes("bonjour") || message.includes("salut") || message.includes("wesh"))
         && (message.includes("ca") || message.includes("ça") || message.includes("va"))) {
-        return "Enchanté, comment va-tu ?";
+        return "Bonjour, Utilisateur. Je ne ressens pas de sentiments, je suis un robot.";
     }
 
     if (message.includes("bonjour") || message.includes("salut") || message.includes("wesh")
@@ -44,7 +48,7 @@ function reponseBot(message) {
         return "Enchanté !"
     }
 
-    if (message.includes("ca") || message.includes("ça") || message.includes("va") {
+    if (message.includes("ca") || message.includes("ça") || message.includes("va")) {
         return "Ca va et toi ? :)";
     }
 
