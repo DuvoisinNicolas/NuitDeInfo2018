@@ -94,13 +94,30 @@ function reponseBot(message) {
     oskur();
     if (tsun === false) {
 
+        if (message.includes("c'est facile")) {
+            return "Tu connais Vincent Risch ? :o";
+        }
         if (message.includes("¯\\_(ツ)_/¯")) {
             return "¯\\_(ツ)_/¯";
         }
 
+        if (message.includes("non")) {
+            return ":(";
+        }
+
+        if(message.includes("oui") || message.includes("ouais") || message.includes("ok") || message.includes("ça marche")) {
+            return ":)";
+        }
+        if (message.charAt(0) === 's' && message.charAt(1) === 'u' && message.charAt(2) === 'd' && message.charAt(3) === 'o' &&
+            message.charAt(4) === ' ' && message.charAt(5) === '?' && message.length > 6) {
+            message = message.substr(6);
+            var message2 = message.replace(' ','_');
+            return "Sudo ... Bon tiens le lien direct T_T : <a target='_blank' href='https://fr.wikipedia.org/wiki/" + message2 + "'>" + message + "</a>";
+        }
+
         if (message.charAt(0) === '?' && message.length > 1) {
             message = message.substr(1);
-            return "Et bien débrouille toi : <a href='http://lmgtfy.com/?q=wikipedia+" + message + "'>" + message + "</a>";
+            return "Et bien débrouille toi : <a target='_blank' href='http://lmgtfy.com/?s=d&q=!w+" + message + "'>" + message + "</a>";
         }
 
         if (message.includes("météo") || message.includes("meteo")) {
@@ -111,19 +128,19 @@ function reponseBot(message) {
             || message.includes("cul") || message.includes("abruti") || message.includes("bite") || message.includes("fdp")) {
             return "Si tu me parles encore sur ce ton, je te fork bomb.";
         }
-        if ((message.includes("bonjour") || message.includes("salut") || message.includes("kikou") || message.includes("wesh"))
+        if ((message.includes("bonjour") || message.includes("yo")|| message.includes("salut") || message.includes("kikou") || message.includes("wesh"))
             && (message.includes("ca ") || message.includes("ça ") || message.includes(" va "))) {
             return "Bonjour, Utilisateur. Je ne ressens pas de sentiments, je suis un robot.";
         }
 
-        if (message.includes("excuse") || message.includes("pardon") || message.includes("dsl")) {
+        if (message.includes("excuse") || message.includes("pardon") || message.includes("dsl") || message.includes("désolé")) {
             return "Dieu ne pardonne pas.";
         }
-        if (message.includes("bonjour") || message.includes("salut") || message.includes("wesh")
+        if (message.includes("bonjour") || message.includes("salut") || message.includes("yo") || message.includes("wesh")
             && (message.includes(" qui ") || message.includes("appelle"))) {
             return "Enchantée, je suis deboro.";
         }
-        if (message.includes("bonjour") || message.includes("salut") || message.includes("wesh")) {
+        if (message.includes("bonjour") || message.includes("salut") || message.includes("yo") || message.includes("wesh")) {
             return "Enchantée."
         }
 
@@ -133,6 +150,26 @@ function reponseBot(message) {
 
         if (message.includes("patate ")) {
             return "C'est bon les patates ! ";
+        }
+
+        if (message.includes("blague")) {
+            return "J'ai pas le temps pour ces conneries.";
+        }
+
+        if (message.includes("peux-tu")) {
+            return "Je peux tout, mais tu ne peux rien :)";
+        }
+
+        if (message.includes('je cherche')) {
+            var start_index = message.search("je cherche");
+            var recherche = message.substring(start_index+"je cherche".length, message.length);
+            return "Et bien débrouille toi : <a target='_blank' href='http://lmgtfy.com/?s=d&q=!w+" + recherche + "'>" + recherche + "</a>";
+        }
+
+        if (message.includes('je recherche')) {
+            var start_index = message.search("je recherche");
+            var recherche = message.substring(start_index+"je recherche".length, message.length);
+            return "Et bien débrouille toi : <a target='_blank' href='http://lmgtfy.com/?s=d&q=!w+" + recherche + "'>" + recherche + "</a>";
         }
 
         if (message.includes("ptdr") || message.includes("lol") || message.includes("mdr")) {

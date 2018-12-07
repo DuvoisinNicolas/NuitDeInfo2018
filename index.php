@@ -22,18 +22,21 @@
 </ul>
 <p>Salut voilà le super site</p>
 <table>
-    <td class = "checklistc">
-        <div id="checklist">
-            <input type="checkbox" class="checkboxJS" onchange="checkBox(this)"/>Bien penser à se brosser les dents<br/>
-            <input type="checkbox" class="checkboxJS" onchange="checkBox(this)"/>Salut a tous j'ai la flemme de réfléchir<br/>
-            <input type="checkbox" class="checkboxJS" onchange="checkBox(this)"/>Deborah veut pas faire de css lul<br/>
-            <input type="checkbox" class="checkboxJS" onchange="checkBox(this)"/>Bon 4 ça suffira ?<br/>
-        </div>
-    </td>
+    <th>Checkbox</th>
+    <tr>
+            <td class = "checklistc">
+                <div id="checklist">
+                    <input type="checkbox" class="checkboxJS" onchange="checkBox(this)"/>Bien penser à se brosser les dents<br/>
+                    <input type="checkbox" class="checkboxJS" onchange="checkBox(this)"/>Salut a tous j'ai la flemme de réfléchir<br/>
+                    <input type="checkbox" class="checkboxJS" onchange="checkBox(this)"/>Deborah veut pas faire de css lul<br/>
+                    <input type="checkbox" class="checkboxJS" onchange="checkBox(this)"/>Bon 4 ça suffira ?<br/>
+                </div>
+            </td>
 
-    <td>
-        <p id="rightText">LOREM IPSUM LOL :D</p>
-    </td>
+            <td>
+                <p id="rightText">Notre application permet à un astronaute de pouvoir s'adapter en milieu hostile et accéder à des informations qui pourraient lui être utiles pour sa survie.</p>
+            </td>
+    </tr>
 
 </table>
 

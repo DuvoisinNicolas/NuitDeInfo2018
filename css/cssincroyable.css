@@ -76,21 +76,34 @@ li a:hover {
 }
 
 table {
-    width: 75%;
+    width: 100%;
 }
 
-td {
-    padding: 0;
-    margin: 0;
+th {
+    text-align: center;
+    width: 50%;
 }
 
+td #rightText {
+    text-align: left;
+    padding: 20px;
+    margin: 10px;
+}
 .checklistc {
+    margin: 0 auto;
     border: 1px solid black;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    display : block;
+
 }
 
 #fusee {
     padding-left:45%;
     position: absolute;
+    bottom: 0;
 }
 
 #close {
@@ -116,3 +129,4 @@ td {
     height: 200px;
     width: 180px;
 }
+

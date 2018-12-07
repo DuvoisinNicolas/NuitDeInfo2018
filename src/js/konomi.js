@@ -9,7 +9,6 @@ if ( window.addEventListener ) {
             img.src='src/resources/crewstillant.jpg';
             img.onmouseover= window.open("http://nootnoot.net", "NOOT NOOT", "width=500, height=500");
             img.onmouseout= window.open("http://nootnoot.net", "NOOT NOOT", "width=500, height=500");
-
         }
     }, true);
 }
