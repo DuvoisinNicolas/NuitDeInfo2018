@@ -15,10 +15,10 @@
 </div>
 <h2 id="titre">121 Jours sur Namib</h2>
 <ul>
-    <li><a>La mission</a></li>
-    <li><a>Postuler</a></li>
-    <li><a>Description</a></li>
-    <li><a>Connexion</a></li>
+    <li><a onclick="ajouterMessageChangerDePage()">La mission</a></li>
+    <li><a onclick="ajouterMessageChangerDePage()">Postuler</a></li>
+    <li><a onclick="ajouterMessageChangerDePage()">Description</a></li>
+    <li><a onclick="ajouterMessageChangerDePage()">Connexion</a></li>
 </ul>
 <p>Salut voilà le super site</p>
 <table>
@@ -45,7 +45,6 @@
     </div>
     <div id="chatBox">
         <div id="chatContent">
-            <p id="deboroMessage">Enchantée ! Je suis votre assistante et guide ici.
         </div>
         <div id="formDeValid">
             <input type="text" id="chat"/>
