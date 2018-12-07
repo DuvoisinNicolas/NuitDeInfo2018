@@ -3,18 +3,20 @@
     padding: 0;
     width: 100%;
     height: 230px;
-<<<<<<< HEAD
 }
 
 .header {
     height: 230px;
-=======
->>>>>>> 7f13912a44f383f141fce64de1ec84d4fa239571
 }
 
 body {
     font-size: 28px;
     margin: 0;
+    font-family: Century, sans-serif;
+}
+
+p {
+    text-align: center;
 }
 
 #titre {
@@ -49,6 +51,7 @@ li a {
 
 li a:hover {
     background-color: #111;
+    cursor: pointer;
 }
 
 .active {
@@ -66,4 +69,17 @@ li a:hover {
         padding-left : 7%;
         padding-top : 0.5%;
         padding-bottom : 0.5%;
+}
+
+table {
+    width: 75%;
+}
+
+td {
+    padding: 0;
+    margin: 0;
+}
+
+.checklistc {
+    border: 1px solid black;
 }
