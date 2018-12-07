@@ -103,3 +103,11 @@ td {
 #chat {
     max-height : 50%;
 }
+
+#userMessage {
+    text-align: left;
+}
+
+#deboroMessage {
+    text-align: right;
+}
