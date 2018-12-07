@@ -148,7 +148,7 @@ function reponseBot(message) {
             return "Ca va et toi ?";
         }
 
-        if (message.includes("patate ")) {
+        if (message.includes("patate")) {
             return "C'est bon les patates ! ";
         }
 
@@ -163,13 +163,13 @@ function reponseBot(message) {
         if (message.includes('je cherche')) {
             var start_index = message.search("je cherche");
             var recherche = message.substring(start_index+"je cherche".length, message.length);
-            return "Et bien débrouille toi : <a target='_blank' href='http://lmgtfy.com/?s=d&q=!w+" + recherche + "'>" + recherche + "</a>";
+            return "Et bien débrouille toi : <a target='_blank' href='http://lmgtfy.com/?q=+" + recherche + "'>" + recherche + "</a>";
         }
 
         if (message.includes('je recherche')) {
             var start_index = message.search("je recherche");
             var recherche = message.substring(start_index+"je recherche".length, message.length);
-            return "Et bien débrouille toi : <a target='_blank' href='http://lmgtfy.com/?s=d&q=!w+" + recherche + "'>" + recherche + "</a>";
+            return "Et bien débrouille toi : <a target='_blank' href='http://lmgtfy.com/?q=+" + recherche + "'>" + recherche + "</a>";
         }
 
         if (message.includes("ptdr") || message.includes("lol") || message.includes("mdr")) {
